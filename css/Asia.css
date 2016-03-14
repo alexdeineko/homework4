@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background1 {
+  background-color: #128aa7;
+  height: 28px;
+  border-bottom: 1px solid #5ef0ff;
+  z-index: auto;
+  position: relative;
+}
+.backgroundGradient {
+  height: 146px;
+  background: rgba(17, 206, 225, 1);
+  background: -moz-linear-gradient(top, rgba(17, 206, 225, 1) 0%, rgba(17, 206, 225, 1) 1%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(17, 206, 225, 1)), color-stop(1%, rgba(17, 206, 225, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+  background: -webkit-linear-gradient(top, rgba(17, 206, 225, 1) 0%, rgba(17, 206, 225, 1) 1%, rgba(255, 255, 255, 1) 100%);
+  background: -o-linear-gradient(top, rgba(17, 206, 225, 1) 0%, rgba(17, 206, 225, 1) 1%, rgba(255, 255, 255, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(17, 206, 225, 1) 0%, rgba(17, 206, 225, 1) 1%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to bottom, rgba(17, 206, 225, 1) 0%, rgba(17, 206, 225, 1) 1%, rgba(255, 255, 255, 1) 100%);
+  z-index: auto;
+  position: relative;
+}
+.backgroundOther {
+  height: 854px;
+  background: rgba(65, 198, 211, 1);
+  background: -moz-linear-gradient(top, rgba(65, 198, 211, 1) 0%, rgba(17, 206, 225, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65, 198, 211, 1)), color-stop(100%, rgba(17, 206, 225, 1)));
+  background: -webkit-linear-gradient(top, rgba(65, 198, 211, 1) 0%, rgba(17, 206, 225, 1) 100%);
+  background: -o-linear-gradient(top, rgba(65, 198, 211, 1) 0%, rgba(17, 206, 225, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(65, 198, 211, 1) 0%, rgba(17, 206, 225, 1) 100%);
+  background: linear-gradient(to bottom, rgba(65, 198, 211, 1) 0%, rgba(17, 206, 225, 1) 100%);
+  z-index: auto;
+  position: relative;
+}
+.backgroundBody {
+  height: 988px;
+  width: 60%;
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  -webkit-box-shadow: 0 0 5px 3px rgba(102, 102, 102, 1);
+  -moz-box-shadow: 0 0 5px 3px rgba(102, 102, 102, 1);
+  box-shadow: 0 0 5px 3px rgba(102, 102, 102, 1);
+}
+.header {
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+  width: 100%;
+}
+.leftLogo {
+  float: left;
+}
+.rightLogo {
+  float: right;
+}
+.contacts {
+  float: right;
+  color: #5fa5bb;
+  font-family: tahoma;
+  font-size: 12px;
+  padding: 12px 12px 0 200px;
+  line-height: 16px;
+}
+.countriesLogos {
+  float: none;
+}
+.maldiviLogo {
+  float: right;
+  padding: 35px 35px 0 0;
+}
+.sri-lankaLogo {
+  float: right;
+  padding: 35px 16px 0 0;
+}
+.butanLogo {
+  float: right;
+  padding: 35px 16px 0 0;
+}
+.tibetLogo {
+  float: right;
+  padding: 35px 16px 0 0;
+}
+.nepalLogo {
+  float: right;
+  padding: 35px 16px 0 0;
+}
+.indiaLogo {
+  float: right;
+  padding: 35px 16px 0 0;
+}
+.countriesLinks {
+  float: none;
+}
+.maldiviLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 30px 0 0;
+}
+.sri-lankaLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 10px 0 0;
+}
+.butanLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 19px 0 0;
+}
+.tibetLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 30px 0 0;
+}
+.nepalLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 30px 0 0;
+}
+.indiaLink {
+  float: right;
+  font-family: tahoma;
+  font-size: 10px;
+  padding: 3px 31px 0 0;
+}
+a:link {
+  color: #128aa7;
+}
+.menu {
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background: rgba(55, 55, 55, 1);
+  background: -moz-linear-gradient(top, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55, 55, 55, 1)), color-stop(100%, rgba(48, 48, 48, 1)));
+  background: -webkit-linear-gradient(top, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+  background: -o-linear-gradient(top, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+  background: linear-gradient(to bottom, rgba(55, 55, 55, 1) 0%, rgba(48, 48, 48, 1) 100%);
+  -webkit-box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
+  -moz-box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
+  box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
+}
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+ul.menuLinks {
+  margin: 0;
+  padding: 5px 0 0 25px;
+  list-style: none;
+}
+ul.menuLinks li {
+  display: inline;
+  font-size: 14px;
+  font-family: tahoma;
+  float: left;
+  position: relative;
+  padding: 0 40px 0 0;
+}
+ul.menuLinks li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+ul.slideDownMenu {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 26px;
+  left: 0;
+  z-index: 100;
+}
+ul.slideDownMenu > li {
+  display: block;
+  z-index: 100;
+}
+ul.slideDownMenu > li > a {
+  display: block;
+  padding: 4px;
+  color: white;
+  background-color: #303030;
+  text-decoration: none;
+  z-index: 100;
+}
+ul.slideDownMenu > li > a:hover {
+  text-decoration: underline;
+  z-index: 100;
+}
+ul.menuLinks > li:hover > ul.slideDownMenu {
+  display: block;
+  z-index: 100;
+}
+.container3 {
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  overflow: hidden;
+  position: relative;
+}
+.container2 {
+  float: left;
+  width: 100%;
+  background: white;
+  position: relative;
+  right: 30%;
+}
+.container1 {
+  float: left;
+  width: 100%;
+  background: #edeef0;
+  position: relative;
+  right: 40%;
+}
+.col1 {
+  float: left;
+  width: 26%;
+  position: relative;
+  left: 72%;
+  /*overflow: hidden;*/
+}
+.col2 {
+  float: left;
+  width: 36%;
+  position: relative;
+  left: 76%;
+  /*overflow: hidden;*/
+}
+.col3 {
+  float: left;
+  width: 26%;
+  position: relative;
+  left: 80%;
+  /*overflow: hidden;*/
+}
+.titleColumn {
+  font-family: tahoma;
+  font-size: 16px;
+  color: #424c43;
+  padding: 5px 0 10px 30px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
