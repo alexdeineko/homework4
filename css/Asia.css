@@ -68,67 +68,45 @@
   float: none;
 }
 .maldiviLogo {
+  width: 50px;
+  text-align: center;
   float: right;
-  padding: 35px 35px 0 0;
+  padding: 25px 35px 0 0;
 }
 .sri-lankaLogo {
   float: right;
-  padding: 35px 16px 0 0;
+  width: 50px;
+  text-align: center;
+  padding: 25px 10px 0 0;
 }
 .butanLogo {
+  width: 50px;
+  text-align: center;
   float: right;
-  padding: 35px 16px 0 0;
+  padding: 25px 10px 0 0;
 }
 .tibetLogo {
+  width: 50px;
+  text-align: center;
   float: right;
-  padding: 35px 16px 0 0;
+  padding: 25px 10px 0 0;
 }
 .nepalLogo {
+  width: 50px;
+  text-align: center;
   float: right;
-  padding: 35px 16px 0 0;
+  padding: 25px 10px 0 0;
 }
 .indiaLogo {
+  width: 50px;
+  text-align: center;
   float: right;
-  padding: 35px 16px 0 0;
+  padding: 25px 10px 0 0;
 }
-.countriesLinks {
-  float: none;
-}
-.maldiviLink {
-  float: right;
+.countriesLinksText {
   font-family: tahoma;
   font-size: 10px;
-  padding: 3px 30px 0 0;
-}
-.sri-lankaLink {
-  float: right;
-  font-family: tahoma;
-  font-size: 10px;
-  padding: 3px 10px 0 0;
-}
-.butanLink {
-  float: right;
-  font-family: tahoma;
-  font-size: 10px;
-  padding: 3px 19px 0 0;
-}
-.tibetLink {
-  float: right;
-  font-family: tahoma;
-  font-size: 10px;
-  padding: 3px 30px 0 0;
-}
-.nepalLink {
-  float: right;
-  font-family: tahoma;
-  font-size: 10px;
-  padding: 3px 30px 0 0;
-}
-.indiaLink {
-  float: right;
-  font-family: tahoma;
-  font-size: 10px;
-  padding: 3px 31px 0 0;
+  white-space: nowrap;
 }
 a:link {
   color: #128aa7;
@@ -147,6 +125,8 @@ a:link {
   -webkit-box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
   -moz-box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
   box-shadow: 0 1px 5px 3px rgba(51, 51, 51, 0.66);
+  position: absolute;
+  z-index: 200;
 }
 ul {
   display: block;
@@ -207,6 +187,7 @@ ul.menuLinks > li:hover > ul.slideDownMenu {
   z-index: 100;
 }
 .container3 {
+  padding: 30px 0 0 0;
   float: left;
   width: 100%;
   background: #edeef0;
@@ -218,21 +199,20 @@ ul.menuLinks > li:hover > ul.slideDownMenu {
   width: 100%;
   background: white;
   position: relative;
-  right: 30%;
+  right: 20%;
 }
 .container1 {
   float: left;
   width: 100%;
   background: #edeef0;
   position: relative;
-  right: 40%;
+  right: 60%;
 }
 .col1 {
   float: left;
-  width: 26%;
+  width: 20%;
   position: relative;
-  left: 72%;
-  /*overflow: hidden;*/
+  left: 81%;
 }
 .col2 {
   float: left;
@@ -243,16 +223,15 @@ ul.menuLinks > li:hover > ul.slideDownMenu {
 }
 .col3 {
   float: left;
-  width: 26%;
+  width: 19%;
   position: relative;
-  left: 80%;
-  /*overflow: hidden;*/
+  left: 141%;
 }
 .titleColumn {
   font-family: tahoma;
   font-size: 16px;
   color: #424c43;
-  padding: 5px 0 10px 30px;
+  padding: 5px 0 10px 18px;
 }
 .clearfix:after {
   content: ".";
@@ -263,4 +242,35 @@ ul.menuLinks > li:hover > ul.slideDownMenu {
 }
 .clearfix {
   display: inline-block;
+}
+.copyright {
+  font-family: tahoma;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 828px 0 0 0;
+}
+.leftLogo {
+  height: 175px;
+}
+.menuspace {
+  height: 370px;
+}
+.triangle {
+  font-size: 9px;
+}
+.contentTitle1 {
+  font-family: tahoma;
+  font-size: 18px;
+}
+.contentTitle2 {
+  padding: 0 0 0 13px;
+  font-family: tahoma;
+  font-size: 18px;
+}
+.contentText {
+  font-family: tahoma;
+  font-size: 12px;
+  color: #424c43;
+  line-height: 2;
 }
